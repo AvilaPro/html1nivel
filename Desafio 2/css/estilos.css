@@ -1,0 +1,40 @@
+body{
+	background: #696C75;
+}
+p{
+	text-align: justify;
+	font-family: arial;
+}
+.cajas{
+	display: inline-block;
+}
+.caja1{
+	background: orange;
+	width:	600px;
+	height: 880px;
+	padding: 10px;
+	margin-top: 0;
+}
+.caja2{
+	background: #CDAF5E;
+	width:	600px;
+	height: 880px;
+	padding: 10px;
+}
+.caja3{
+	width: 600px;
+	height: 800px;
+	background: #EC654F;
+	margin: 20px auto;
+	padding: 10px;
+}
+.img-noticia img{
+	width: 100%;
+	height: 200px;
+}
+.cont-noticia{
+	padding: 20px;
+	text-align: justify;
+	font-size: 20px
+	color: blue;
+}

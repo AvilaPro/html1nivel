@@ -1,0 +1,45 @@
+body{
+	background-image: url("bandera2.jpg");
+	background-size: 1200px 800px;
+    background-repeat: no-repeat
+}
+	#p1{
+		border: 1px solid black;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    margin-right: 150px;
+	    margin-left: 80px;
+	    background-color: lightblue;
+	}
+.cajas{
+	display: inline-block;
+}
+.caja1{
+	width:	500px;
+	height: 200px;
+	background: orange;
+}
+#caja2{
+	width:	500px;
+	height: 200px;
+	background: blue;
+}
+.noticia{
+	width: 700px;
+	height: 700px;
+	background: lightgreen;
+	margin:20px auto;
+}
+.img-noticia img{
+	width: 100%;
+}
+.cont-noticia{
+	padding: 20px;
+	text-align: justify;
+	font-family: arial;
+	font-size: 20px
+	color: blue;
+}
+span{
+	font-size: 50px
+	}

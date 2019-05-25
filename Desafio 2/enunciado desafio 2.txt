@@ -1,0 +1,12 @@
+Según el texto adjuntado, realizar las siguientes actividades:
+Nota: puede usar etiquetas y propiedades que aún no se han visto en clase. Debe enviar un archivo comprimido con los archivos html y css.
+
+1.- Crear los archivos HTML y CSS.
+
+2.- Enlazar el archivo css con el html. Los estilos css los debe guardar en una carpeta llamada "css".
+
+3.- Usar y enlazar el archivo normalize.css con el html.
+
+4.- Agregar las etiquetas div y span en el html.
+
+5.- Aplicar estilos con las propiedades css vistas en clase y otras que desee incorporar a la página web.

@@ -1,0 +1,8 @@
+header <- me coloca alli lo que es del encabezado como el titulo y posibles espacios para loguear
+nav <- le indica al navegador que esto es importante y le da relevancia ante 
+(lorem ipsu) (lipsum.com) <- alli encuentro textos de ejemplos para la pagina
+section <- me coloca secciones en el contenido de la pagina
+	article<- va dentro del seccion y con <p> adentro podemos incluir por ejemplo texto
+aside <- son para los agregados laterales de la pagina
+footer <- es para el contenido que va debajo del contenido
+href="#nombre" <- esto me llevara a una seccion o parte de mi contenido, muy usado un los (one-page)

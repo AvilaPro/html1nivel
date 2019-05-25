@@ -1,0 +1,11 @@
+body{
+	background: yellow;
+}
+	#p1{
+		border: 1px solid black;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    margin-right: 150px;
+	    margin-left: 80px;
+	    background-color: lightblue;
+	}

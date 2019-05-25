@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Clase 4-Tablas</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light" rel="stylesheet">
+	</head>
+	<body>
+		<!--Tablas-->
+		<table>
+			<thead>
+				<tr>
+					<th class="encabezado">Nombre</th>
+					<th class="encabezado">Correo</th>
+					<th class="encabezado">Fecha de Registro</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>Eduardo Mejias</td>
+				<td>mejiasavilaeduardo@gmail.com</td>
+				<td>11/09/2018</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Marbelys Guedez</td>
+				<td colspan="2">marbelys@gmail.com</td>
+			</tr>
+			<tr>
+				<td colspan="2">marbelys@gmail.com</td>
+			</tr>
+		</table>
+		<!--Formularios--><!--en method hay dos tipos get y post y en action: lo que se va a procesar en el php-->
+		<form name="formulario.login" method="post" action="procesar-login.php">
+			<label for="nombre">Usuario</label>
+			<input type="text" name="nonbre" id="usuario" placeholder="Nombre Usuario">
+			<label for="clave">Contraseña</label>
+			<input type="password" name="clave" id="clave" placeholder="Tu contraseña">
+			<label>Mensaje</label>
+			<textarea placeholder="Deja tu mensaje"></textarea>
+			<label>Paises</label>
+			<select>
+				<option>Venezuela</option>
+				<option>Colombia</option>
+				<option>Ecuador</option>
+				<option>Brasil</option>
+				<option>Argentina</option>
+			</select>
+			<label id="Men">Masculino</label>
+			<input type="radio" name="genero" value="Masculino">
+			<label id="Wom">Femenino</label>
+			<input type="radio" name="genero" value="Femenino">	
+			<label>Acepta los terminos y condiciones</label>		
+			<input type="checkbox" name="comprobar" value="comprobar">
+			<input type="button" name="boton" value="boton1">
+			<input type="reset" name="resetear" value="limpiar">
+			<input type="submit" name="enviar" value="enviar">
+			<input type="hidden" name="fecha" value="11/09/2018">
+		</form>
+
+	</body>

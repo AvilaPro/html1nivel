@@ -1,0 +1,47 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Desafio 4 HTML</title>
+		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<h1>Ingresa tus datos para ser registrado en el sitio</h1>
+		</header> 
+		<form id="reg" name="formulario.registro" method="post" action="procesar-registro.html">
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" id="usuario" placeholder="Nombre Usuario">
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" id="usuario" placeholder="Apellido Usuario">
+			<label for="email">Email</label>
+			<input type="text" name="email" id="usuario" placeholder="Email Usuario">
+			<label for="clave">Contraseña</label>
+			<input type="password" name="clave" id="clave" placeholder="Tu contraseña">
+			<label for="clave">Repita su Contraseña</label>
+			<input type="password" name="confclave" id="clave" placeholder="Repite tu contraseña">
+			<div>
+				<label id="Men">Masculino</label>
+				<input type="radio" name="genero" value="Masculino">
+				<label id="Wom">Femenino</label>
+				<input type="radio" name="genero" value="Femenino">	
+			</div>
+			<div>
+				<label>Nivel de Educacion</label>
+				<select>
+				<option>Primaria</option>
+				<option>Secundaria</option>
+				<option>Universitaria</option>
+				<option>Maestria</option>
+				<option>Doctorado</option>
+			</select>
+			</div>
+			<input type="reset" name="resetear" value="limpiar">
+			<input type="submit" name="enviar" value="enviar">
+			<input type="hidden" name="fecha" value="15/09/2018">
+		</form>	
+		<h1><a href="../index.html">Para ir al index click AQUI</a></h1>
+	</body>
+</html>
